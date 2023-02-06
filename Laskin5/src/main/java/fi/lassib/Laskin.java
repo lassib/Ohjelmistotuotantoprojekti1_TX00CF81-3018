@@ -2,39 +2,46 @@ package fi.lassib;
 
 public class Laskin {
 
-    private int tulos;  	// Muuttuja tulokselle
+    private double tulos;  	// Muuttuja tulokselle
 
     public void nollaa() {  // Nollaa tulosmuuttuja
         tulos = 0;
     }
 
-    public int annaTulos() {
+    public double annaTulos() {
         return tulos;
     }
 
-    public void lisaa(int n) {
+    public void lisaa(double n) {
         tulos = tulos + n;
     }
 
-    public void vahenna(int n) {
-        tulos = tulos - 1;
+    public void vahenna(double n) {
+        tulos = tulos - n;
     }
 
-    public void kerro(int n) {
-        // Ei vielä toteutettu
+    public void kerro(double n) {
+        tulos = tulos * n;
     }
 
-    public void jaa(int n) {
-    	// if (n==0) throw new ArithmeticException("Nollalla ei voi jakaa");
-        tulos = tulos / n;
+    public void jaa(double n) {
+        if (n == 0) {
+            throw new ArithmeticException("Nollalla ei voi jakaa");
+        } else {
+            tulos = tulos / n;
+        }
     }
 
-    public void nelio(int n) {
-        tulos = 2 * n;
+    public void nelio(double n) {
+        tulos = n * n;
     }
 
-    public void neliojuuri(int n) {
-    	// Ei vielä toteutettu
+    public void neliojuuri(double n) {
+        if (n < 0) {
+            throw new ArithmeticException("Neliö ei voi olla negatiivinen");
+        } else {
+            tulos = Math.sqrt(n);
+        }
     }
 
     public void virtaON() {
