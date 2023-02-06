@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: fi.lassib.LaskinTest
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.011 s - in fi.lassib.LaskinTest
+Tests run: 5, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.01 s - in fi.lassib.LaskinTest

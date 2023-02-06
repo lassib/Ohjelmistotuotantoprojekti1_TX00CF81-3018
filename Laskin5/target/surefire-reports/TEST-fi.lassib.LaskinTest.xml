@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="fi.lassib.LaskinTest" time="0.011" tests="5" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="fi.lassib.LaskinTest" time="0.01" tests="5" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.specification.version" value="19"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-19\bin"/>
-    <property name="sun.java.command" value="C:\Users\eucal\AppData\Local\Temp\surefire11993712099025905479\surefirebooter2396593830059666143.jar C:\Users\eucal\AppData\Local\Temp\surefire11993712099025905479 2023-02-06T14-15-49_387-jvmRun1 surefire17743563561208576663tmp surefire_04391919711828237313tmp"/>
+    <property name="sun.java.command" value="C:\Users\eucal\AppData\Local\Temp\surefire6860494756815467086\surefirebooter17310412864987631055.jar C:\Users\eucal\AppData\Local\Temp\surefire6860494756815467086 2023-02-06T14-39-00_254-jvmRun1 surefire3544920117509706313tmp surefire_04667766219273523330tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\eucal\Documents\Koulu\Git projektit\OTP1\laskin5\target\test-classes;C:\Users\eucal\Documents\Koulu\Git projektit\OTP1\laskin5\target\classes;C:\Users\eucal\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.7.2\junit-jupiter-params-5.7.2.jar;C:\Users\eucal\.m2\repository\org\apiguardian\apiguardian-api\1.1.0\apiguardian-api-1.1.0.jar;C:\Users\eucal\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.7.2\junit-jupiter-api-5.7.2.jar;C:\Users\eucal\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\eucal\.m2\repository\org\junit\platform\junit-platform-commons\1.7.2\junit-platform-commons-1.7.2.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -31,7 +31,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\eucal\AppData\Local\Temp\surefire11993712099025905479\surefirebooter2396593830059666143.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\eucal\AppData\Local\Temp\surefire6860494756815467086\surefirebooter17310412864987631055.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="19.0.2+7-44"/>
@@ -45,6 +45,7 @@
     <property name="localRepository" value="C:\Users\eucal\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\eucal\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2022.3.1"/>
     <property name="java.version" value="19.0.2"/>
     <property name="user.dir" value="C:\Users\eucal\Documents\Koulu\Git projektit\OTP1\laskin5"/>
     <property name="os.arch" value="amd64"/>
@@ -60,10 +61,10 @@
     <property name="java.class.version" value="63.0"/>
   </properties>
   <testcase name="testJaaNollalla" classname="fi.lassib.LaskinTest" time="0.001"/>
-  <testcase name="testJaa" classname="fi.lassib.LaskinTest" time="0"/>
+  <testcase name="testJaa" classname="fi.lassib.LaskinTest" time="0.001"/>
   <testcase name="testKerro" classname="fi.lassib.LaskinTest" time="0">
     <skipped message="HUOMAA - Metodi kerro() on vielä toteuttamatta, eikä sitä haluta ajaa vielä"/>
   </testcase>
   <testcase name="testLisaa" classname="fi.lassib.LaskinTest" time="0.001"/>
-  <testcase name="testVahenna" classname="fi.lassib.LaskinTest" time="0.001"/>
+  <testcase name="testVahenna" classname="fi.lassib.LaskinTest" time="0.002"/>
 </testsuite>
