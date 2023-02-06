@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="8.45.1">
+<file name="C:\Users\eucal\Documents\Koulu\Git projektit\OTP1\laskin5\src\main\java\fi\lassib\Laskin.java">
+<error line="1" column="1" severity="error" message="Package name is not same as directory." source="com.puppycrawl.tools.checkstyle.checks.coding.PackageDeclarationCheck"/>
+<error line="3" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="5" column="25" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="28" column="9" severity="error" message="Comment has incorrect indentation level 5, expected is 8, indentation should be the same level as line 29." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+</file>
+<file name="C:\Users\eucal\Documents\Koulu\Git projektit\OTP1\laskin5\src\test\java\fi\lassib\AbstractParent.java">
+<error line="1" column="1" severity="error" message="Package name is not same as directory." source="com.puppycrawl.tools.checkstyle.checks.coding.PackageDeclarationCheck"/>
+<error line="8" severity="error" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="C:\Users\eucal\Documents\Koulu\Git projektit\OTP1\laskin5\src\test\java\fi\lassib\ExtraTest.java">
+<error line="1" column="1" severity="error" message="Package name is not same as directory." source="com.puppycrawl.tools.checkstyle.checks.coding.PackageDeclarationCheck"/>
+<error line="4" column="15" severity="error" message="Unused import - org.junit.jupiter.api.Assertions.assertThrows." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="7" column="1" severity="error" message="Wrong order for &apos;org.junit.jupiter.api.AfterAll&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="13" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="16" column="26" severity="error" message="Name &apos;DELTA&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="41" column="22" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="46" column="22" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="47" column="22" severity="error" message="&apos;16&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="47" column="44" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="52" column="22" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="53" column="22" severity="error" message="&apos;25&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="53" column="51" severity="error" message="&apos;,&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck"/>
+<error line="55" column="5" severity="error" message="&apos;METHOD_DEF&apos; should be separated from previous line." source="com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck"/>
+<error line="58" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="58" column="17" severity="error" message="Comment has incorrect indentation level 2, expected is 8, indentation should be the same level as line 57." source="com.puppycrawl.tools.checkstyle.checks.indentation.CommentsIndentationCheck"/>
+<error line="60" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="64" column="10" severity="error" message="&apos;method def&apos; child has incorrect indentation level 9, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\eucal\Documents\Koulu\Git projektit\OTP1\laskin5\src\test\java\fi\lassib\LaskinTest.java">
+<error line="1" column="1" severity="error" message="Package name is not same as directory." source="com.puppycrawl.tools.checkstyle.checks.coding.PackageDeclarationCheck"/>
+<error line="4" column="1" severity="error" message="Wrong order for &apos;org.junit.jupiter.api.BeforeEach&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="15" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="20" column="26" severity="error" message="Name &apos;DELTA&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="32" column="22" severity="error" message="&apos;4&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="37" column="22" severity="error" message="&apos;10&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="39" column="22" severity="error" message="&apos;8&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="45" column="22" severity="error" message="&apos;8&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="47" column="22" severity="error" message="&apos;5&apos; is a magic number." source="com.puppycrawl.tools.checkstyle.checks.coding.MagicNumberCheck"/>
+<error line="58" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="62" column="8" severity="error" message="&apos;method def&apos; child has incorrect indentation level 7, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\eucal\Documents\Koulu\Git projektit\OTP1\laskin5\src\test\java\fi\lassib\NelioTest.java">
+<error line="1" column="1" severity="error" message="Package name is not same as directory." source="com.puppycrawl.tools.checkstyle.checks.coding.PackageDeclarationCheck"/>
+<error line="5" column="1" severity="error" message="&apos;org.junit.jupiter.api.Assertions.assertEquals&apos; should be separated from previous imports." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="7" column="1" severity="error" message="Wrong order for &apos;org.junit.jupiter.api.Test&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="7" column="8" severity="error" message="Unused import - org.junit.jupiter.api.Test." source="com.puppycrawl.tools.checkstyle.checks.imports.UnusedImportsCheck"/>
+<error line="8" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="11" severity="error" message="Line has trailing spaces." source="com.puppycrawl.tools.checkstyle.checks.regexp.RegexpSinglelineCheck"/>
+<error line="12" column="1" severity="error" message="Missing a Javadoc comment." source="com.puppycrawl.tools.checkstyle.checks.javadoc.MissingJavadocTypeCheck"/>
+<error line="14" column="1" severity="error" message="File contains tab characters (this is the first instance)." source="com.puppycrawl.tools.checkstyle.checks.whitespace.FileTabCharacterCheck"/>
+<error line="14" column="9" severity="error" message="&apos;member def modifier&apos; has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="15" column="9" severity="error" message="&apos;member def modifier&apos; has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="15" column="30" severity="error" message="Name &apos;DELTA&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="17" column="9" severity="error" message="&apos;method def modifier&apos; has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="17" column="33" severity="error" message="&apos;=&apos; is not followed by whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="17" column="33" severity="error" message="&apos;=&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="20" column="17" severity="error" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="21" column="17" severity="error" message="&apos;method def&apos; child has incorrect indentation level 16, expected level should be 8." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="22" column="9" severity="error" message="&apos;method def rcurly&apos; has incorrect indentation level 8, expected level should be 4." source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+</checkstyle>

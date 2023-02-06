@@ -1,4 +1,4 @@
-package laskin;
+package fi.lassib;
 
 public class Laskin {
 
